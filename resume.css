@@ -1,0 +1,129 @@
+body {
+    background: #fbe8a6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1200px;
+    border-radius: 100px;
+    width: 100%;
+    margin:auto;
+    flex-basis: 1500px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.main{
+    display: flex;
+    flex-grow: 3;
+}
+
+.content {
+    flex: 2 2 75%;
+    background: #b4dfe5;
+    padding: 0px 35px;
+    margin: 0%;
+}
+
+.side {
+    flex: 1 1 25%;
+    max-width: 200px;
+    padding: 45px;
+    background: #f4976c; 
+    order: -1;
+}
+
+.title{
+    line-height: .5;
+}
+
+.contact {
+ width: 240px;
+}
+
+.contact > h3 {
+    margin-bottom: 4px;
+   }
+
+.contact1 > p {
+    display: inline-block;
+    margin: 6px;
+}
+
+.side, .content {
+    margin: 4px;
+    border-radius: 7px;
+}
+
+
+.edu {
+    flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   order: 1;
+   /* max-width: 600px; */
+}
+
+.ref {
+    flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   order: 1;
+}
+
+.bx1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 6px;
+} 
+
+.bx2 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 6px;
+}
+
+.p1 > p {
+    margin-left: 1em;
+    text-indent: -1em;
+  }
+
+  .bio > p {
+        text-indent: 5em;
+  }
+
+
+.side li {
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Alata', sans-serif;
+}
+
+h3 {
+    font-family: 'Alata', sans-serif;
+    margin: 8px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+span {
+    font-style: italic;
+}
+
+@media all and (max-width: 640px) {
+    .main {
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .side{
+        max-width: 100vw;
+    }
+}
