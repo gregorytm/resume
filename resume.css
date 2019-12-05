@@ -1,5 +1,6 @@
 body {
     background: #fbe8a6;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -91,23 +92,22 @@ a {
     text-indent: -1em;
   }
 
-  .bio > p {
-        text-indent: 5em;
-        margin: 6px;
+.bio > p {
+    text-indent: 5em;
+    margin: 6px;
   }
 
-
 h2 {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h3 {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin: 8px;
 }
 
 p {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 span {
