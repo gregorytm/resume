@@ -69,19 +69,19 @@ margin-bottom: 0px;
 
 .edu {
     flex-direction: row;
-   display: flex;
-   flex-wrap: wrap;
-   flex-grow: 1;
-   order: 1;
-   /* max-width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    order: 1;
+    /* max-width: 600px; */
 }
 
 .ref {
     flex-direction: row;
-   display: flex;
-   flex-wrap: wrap;
-   flex-grow: 1;
-   order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    order: 1;
 }
 
 .bx1 {
@@ -109,6 +109,16 @@ margin-bottom: 0px;
 
 .refBox{
     margin-left:5em;
+}
+
+.profileLink{
+    background-color: rgb(54, 170, 194);
+    border-radius: 50% 6% / 10% 40%;
+}
+
+.refList{
+    background-color: rgb(54, 170, 194);
+    border-radius: 50% 10% / 10% 90%;
 }
 
 h3 {
