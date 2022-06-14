@@ -1,0 +1,5 @@
+package.json
+rsync-excludes
+.git
+.gitignore
+.vercel

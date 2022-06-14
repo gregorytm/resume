@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "publish": "rsync -avhz --delete --exclude-from=rsync-excludes . gregorytm.dev:/var/www/html/resume/"
+  }
+}
