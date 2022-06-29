@@ -1,5 +1,5 @@
 body {
-    background: #fbe8a6;
+    background: #3581b8;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -10,6 +10,17 @@ body {
     margin:auto;
     flex-basis: 1500px;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.capstone {
+    text-decoration: none;
+    background-color: #dee2d6;
+    border-radius: 25px;
+    padding: .2em;
+}
+
+.linkedin {
+    color: #3581b8;
 }
 
 a {
@@ -37,7 +48,7 @@ margin-bottom: 0px;
     flex: 1 1 25%;
     max-width: 200px;
     padding: 45px;
-    background: #f4976c; 
+    background: #fcb07e; 
     order: -1;
 }
 
