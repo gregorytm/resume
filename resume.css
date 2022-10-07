@@ -132,6 +132,10 @@ margin-bottom: 0px;
     border-radius: 50% 10% / 10% 90%;
 }
 
+.projInfo{
+    margin-top: 10rem;
+}
+
 h3 {
     margin: 8px;
 }
