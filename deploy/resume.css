@@ -1,0 +1,151 @@
+body {
+    background: #3581b8;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    max-width: 1200px;
+    border-radius: 100px;
+    width: 100%;
+    margin:auto;
+    flex-basis: 1500px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.capstone {
+    text-decoration: none;
+    background-color: #dee2d6;
+    border-radius: 25px;
+    padding: .2em;
+}
+
+.linkedin {
+    color: #3581b8;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.main{
+    display: flex;
+    flex-grow: 3;
+}
+
+.content {
+    flex: 2 2 75%;
+    background: #b4dfe5;
+    padding: 20px 35px;
+    margin: 0%;
+}
+
+.top {
+margin-bottom: 0px;
+}
+
+.side {
+    flex: 1 1 25%;
+    max-width: 200px;
+    padding: 45px;
+    background: #fcb07e; 
+    order: -1;
+}
+
+.title{
+    line-height: .5;
+}
+
+.contact1 {
+    width: 240px;
+    display: flex;
+}
+
+.contact1 > h3 {
+    margin-bottom: 4px;
+   }
+
+.details {
+    margin: 6px;
+}
+
+.icon {
+    margin-top: 8px;
+}
+
+.side, .content {
+    margin: 4px;
+    border-radius: 7px;
+}
+
+.edu {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    order: 1;
+    /* max-width: 600px; */
+}
+
+.ref {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    order: 1;
+}
+
+.bx1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 6px;
+} 
+
+.bx2 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 6px;
+}
+
+.p1 > p {
+    margin-top: 3px;
+    margin-left: 1em;
+    text-indent: -1em;
+  }
+
+.bio > p {
+    text-indent: 5em;
+    margin: 6px;
+  }
+
+.refBox{
+    margin-left:5em;
+}
+
+.profileLink{
+    background-color: rgb(54, 170, 194);
+    border-radius: 50% 6% / 10% 40%;
+}
+
+.refList{
+    background-color: rgb(54, 170, 194);
+    border-radius: 50% 10% / 10% 90%;
+}
+
+.projInfo{
+    margin-top: 10rem;
+}
+
+h3 {
+    margin: 8px;
+}
+
+@media all and (max-width: 640px) {
+    .main {
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .side{
+        max-width: 100vw;
+    }
+}
