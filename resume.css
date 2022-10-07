@@ -140,10 +140,6 @@ h3 {
     margin: 8px;
 }
 
-span {
-    font-style: italic;
-}
-
 @media all and (max-width: 640px) {
     .main {
         flex-direction: column;
